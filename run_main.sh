@@ -1,0 +1,2 @@
+export CUPY_CACHE_DIR=/workspace/
+python main.py /datafs/FileTypeDatasets/tiny_ember2018/ --outfile checkpoints/checkpoint_default-bs32.pth.tar --results default-bs32_out.txt -b 32 --resume checkpoints/checkpoint_default-bs32.pth.tar &
